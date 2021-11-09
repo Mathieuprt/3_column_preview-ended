@@ -1,0 +1,21 @@
+.button{
+    background-color: #f2f2f2;
+    padding: 1.2rem 2.5rem;
+    border-radius: 2rem;
+    transition: .3s all ease-in-out;
+    &.button_orange{
+        color: $orange;
+    }
+    &.button_cyan{
+        color: $cyan;
+    }
+    &.button_darkercyan{
+        color: $darkercyan;
+    }
+    &:hover{
+        background-color: transparent;
+        border: 2px solid #f2f2f2;
+        color: $whitep;
+        transform: scale(.95);
+    }
+}
